@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgb(38, 38, 66);
+}
+
+.main-nav .logo {
+    width: 500px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 0;
+    background-image: url('./assets/logo-nicarao-agency.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
